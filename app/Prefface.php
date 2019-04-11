@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Prefface extends Model
 {
-    protected $table = "Preffaces";
+    protected $table = "preffaces";
 
      protected $fillable = [
     		'seguidores',
