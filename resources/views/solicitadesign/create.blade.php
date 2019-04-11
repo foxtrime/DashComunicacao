@@ -15,7 +15,7 @@
                 
                 <div class="form-group">
                     <label for="solicitacoes">Solicitações</label>
-                    <input type="text" class="form-control" name="solicitacoes" id="solicitacoes" style="width: 40%;" required>
+                    <input type="number" class="form-control" name="solicitacoes" id="solicitacoes" style="width: 40%;" required>
                 </div>
 
                 <div class="form-group">

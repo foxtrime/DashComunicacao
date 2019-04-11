@@ -15,12 +15,12 @@
                 
                 <div class="form-group">
                     <label for="clipping">Clipping</label>
-                    <input type="text" class="form-control" name="clipping" id="clipping" style="width: 40%;" required>
+                    <input type="number" class="form-control" name="clipping" id="clipping" style="width: 40%;" required>
                 </div>
 
                 <div class="form-group">
                     <label for="noticias">Noticias</label>
-                    <input type="text" class="form-control" name="noticias" id="noticias" style="width: 40%;" required>
+                    <input type="number" class="form-control" name="noticias" id="noticias" style="width: 40%;" required>
                 </div>
 
                 <div class="form-group">
