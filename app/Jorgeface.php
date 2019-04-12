@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Jorgeface extends Model
 {
-    protected $table = "Jorgefaces";
+    protected $table = "jorgefaces";
 
     protected $fillable = [
         	'total_seguidores',
