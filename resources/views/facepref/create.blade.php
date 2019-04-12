@@ -15,32 +15,32 @@
                 
                 <div class="form-group">
                     <label for="seguidores">Seguidores</label>
-                    <input type="text" class="form-control" name="seguidores" id="seguidores" style="width: 40%;" required>
+                    <input type="number" class="form-control" name="seguidores" id="seguidores" style="width: 40%;" required>
                 </div>
 
                 <div class="form-group">
                     <label for="alcance">Alcance</label>
-                    <input type="text" class="form-control" name="alcance" id="alcance" style="width: 40%;" required>
+                    <input type="number" class="form-control" name="alcance" id="alcance" style="width: 40%;" required>
                 </div>
 
                 <div class="form-group">
                     <label for="envolvimento">Envolvimento</label>
-                    <input type="text" class="form-control" name="envolvimento" id="envolvimento" style="width: 40%;" required>
+                    <input type="number" class="form-control" name="envolvimento" id="envolvimento" style="width: 40%;" required>
                 </div>
 
                 <div class="form-group">
                     <label for="interacoes">Intereções</label>
-                    <input type="text" class="form-control" name="interacoes" id="interacoes" style="width: 40%;" required>
+                    <input type="number" class="form-control" name="interacoes" id="interacoes" style="width: 40%;" required>
                 </div>
 
                 <div class="form-group">
                     <label for="publicacoes">Publicações</label>
-                    <input type="text" class="form-control" name="publicacoes" id="publicacoes" style="width: 40%;" required>
+                    <input type="number" class="form-control" name="publicacoes" id="publicacoes" style="width: 40%;" required>
                 </div>
 
                 <div class="form-group">
                     <label for="seg_insta">Seguidores Instagram</label>
-                    <input type="text" class="form-control" name="seg_insta" id="seg_insta" style="width: 40%;" required>
+                    <input type="number" class="form-control" name="seg_insta" id="seg_insta" style="width: 40%;" required>
                 </div>
 
                 <div class="form-group">

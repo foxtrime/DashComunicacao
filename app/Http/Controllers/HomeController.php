@@ -7,6 +7,7 @@ use App\Imprensa;
 use App\Jorgeface;
 use App\Prefface;
 use App\Solicitadesign;
+use App\User;
 
 class HomeController extends Controller
 {
@@ -27,11 +28,22 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $imprensa = Imprensa::all();
-        $facejorge = Jorgeface::all();
-        $facepref = Prefface::all();
-        $solicitades = Solicitadesign::all();
-        //dd($facejorge);
-        return view('home',compact('imprensa','facejorge','facepref','solicitades'));
+        $user = auth()->user()->perfil;
+        
+        if($user == 'admin'){
+            $imprensa = Imprensa::all();
+            $facejorge = Jorgeface::all();
+            $facepref = Prefface::all();
+            $solicitades = Solicitadesign::all();
+            //dd($facejorge);
+            return view('home',compact('imprensa','facejorge','facepref','solicitades'));
+        }else{
+            $imprensa = Imprensa::all();
+            $facejorge = Jorgeface::all();
+            $facepref = Prefface::all();
+            $solicitades = Solicitadesign::all();
+            //dd($facejorge);
+            return view('user',compact('imprensa','facejorge','facepref','solicitades'));
+        }
     }
 }
