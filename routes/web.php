@@ -7,7 +7,7 @@
 // Auth::routes();
 
 Route::get('/', 'AuthController@index')->name('login');
-Route::post('/login', 'AuthController@login');
+Route::post('public/login', 'AuthController@login');
 
 Route::group(['middleware'=>['auth']],function(){
 
